@@ -71,6 +71,7 @@ def apply_cld_shdw_mask(img):
 
 
 
+
 def add_ee_layer(self, ee_image_object, vis_params, name, show=True, opacity=1, min_zoom=0):
     map_id_dict = ee.Image(ee_image_object).getMapId(vis_params)
     folium.raster_layers.TileLayer(
